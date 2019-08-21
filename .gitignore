@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# BELOW HERE ADDED AFTER 'create-react-app'
+src/**/*.css
