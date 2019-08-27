@@ -1,14 +1,17 @@
 .navbar {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: silver;
+  padding: 2vw 5vw 2vw 5vw; }
 
 .navlinks {
-  width: 35vw;
   align-content: space-evenly;
   display: flex;
   justify-content: space-evenly; }
   .navlinks span {
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
     cursor: pointer; }
-
-* {
-  border: 1px solid black; }
+  .navlinks span:hover, .navlinks span:active, .navlinks span:focus {
+    text-decoration: underline;
+    font-weight: bolder; }
